@@ -40,33 +40,7 @@ SharedPreferences:	Data storage
 ViewModel:	Manage UI-related data lifecycle
 
 
-📦 Project Structure: 
 
-FavouriteLocations/
-
-├── app/
-
-│   ├── src/main/java/com/example/favouritelocations/
-
-│   │   ├── MainActivity.java         # Main map screen
-
-│   │   ├── FavouriteLocationDataFragment.java  # Manage saved locations
-
-│   │   ├── LocationData.java         # Model class for locations
-
-│   │   └── LocationViewModel.java    # ViewModel for location data
-
-│   └── res/
-
-│       ├── layout/                   # Layout XML files
-
-│       ├── drawable/                 # App icons and images
-
-│       └── values/                   # Strings and styles
-
-├── build.gradle.kts                  # Gradle build file (Kotlin DSL)
-
-└── README.md                          # Project description (this file!)
 
 
 🏗 How to Build and Run Locally: 
